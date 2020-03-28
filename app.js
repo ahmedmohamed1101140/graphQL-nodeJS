@@ -2,7 +2,7 @@ const express = require('express');
 const graphqlHTTP = require('express-graphql');
 const schema = require('./schema/schema');
 const mongoose = require('mongoose');
-require('dotenv').config({path: '/.env'});
+require('dotenv').config();
 
 const app = express();
 mongoose.connect(process.env.MLAB_URL);
@@ -18,7 +18,6 @@ app.use('/graphql',graphqlHTTP({
 }));
 
 const PORT = process.env.PORT || 3000;
-// "MLAB_URL": "mongodb://ahmed:test123@ds253960.mlab.com:53960/gql-node"
 
 
 app.listen(PORT,()=>{

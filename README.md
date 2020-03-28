@@ -5,7 +5,7 @@ Because I think it's a cool tool and it's very feauturestic.
 
 ## Pre-Setup
 ```
-cp .\nodemon.example.json nodemon.json
+cp .\.env.example .env
 
 Add your mlab Database URL to nodemon.json envrioment variable
 
