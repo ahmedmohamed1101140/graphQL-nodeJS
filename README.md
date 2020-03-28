@@ -21,7 +21,10 @@ Go to localhost:3000/graphql
 ## Docker Image
 
 ```
-docker run -p 3000:3000 ahmedmohamed1101140/nodejs-graphql-books-api
+docker build -t <your-name>/nodejS-graphgql-books-api .
+
+docker run -p 3000:3000 <your-name>/nodejS-graphgql-books-api
+
 
 Go to localhost:3000/graphql
 ```
