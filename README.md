@@ -16,12 +16,12 @@ Add your mlab Database URL to nodemon.json envrioment variable
 npm install
 npm run dev
 
-Go to localhost:3000
+Go to localhost:3000/graphql
 ```
 ## Docker Image
 
 ```
-docker run -p 3000:3000 ahmedmohamed1101140/node-chat-app
+docker run -p 3000:3000 ahmedmohamed1101140/nodejs-graphql-books-api
 
-Go to localhost:3000
+Go to localhost:3000/graphql
 ```
